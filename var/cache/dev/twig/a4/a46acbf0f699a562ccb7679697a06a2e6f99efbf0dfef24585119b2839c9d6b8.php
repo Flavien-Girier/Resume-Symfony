@@ -44,28 +44,115 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
     <body>
         <header>
             <h1>Flavien Girier / Développeur Web Junior</h1>
-            Email / Lyon
+            <div class=\"text-center\">girier.flavien@gmail.com / Lyon</div>
         </header>
 
         <section>
-            About Me
+            <div class=\"container\">
+                <div class=\"row\">
+
+
+                <h1>About Me</h1>
+            <h2>Loisirs</h2>
+            Cinéma : Quentin Tarantino, Christopher Nolan, Alejandro Gonzalez Inarritu
+            Musique : Flûte traversière, guitare basse Sports : Escalade, Soccer 5
+            </div>
+            </div>
         </section>
 
         <section>
-            Formation
+            <div class=\"container\">
+                <div class=\"row\">
+
+
+                Formation
+            Formation Développement Web PHP / Symfony, Wild Code School - 2018 <br>
+            Master Marketing / Communication / Vente, Ecole de management
+            ESDES - 2012-2014 <br>
+            Licence Droit, Economie, Gestion, Université Claude Bernard Lyon 1.
+            Année en Erasmus dans l’université de Lappeenranta, Finlande - 2011-2012 <br>
+            Diplôme Universitaire de Technologie : Gestion des Entreprise et des
+            Administrations (GEA), Université Claude Bernard Lyon 1 - 2009-2011 <br>
+            Baccalauréat Scientifique Option Science de la vie et de la terre 2008 <br>
+            </div>
+            </div>
         </section>
 
         <section>
-            Compétences
+            <div class=\"container\">
+                <div class=\"row\">
+            <h1> Compétences</h1> <br>
+
+            <h2>Back-End</h2>
+            PHP 7<br>
+            Symfony 3<br>
+            MySQL<br>
+
+            <h2>Front-End</h2>
+            HTML5<br>
+            CSS3<br>
+            Boostrap 3 & 4<br>
+            jQuery<br>
+            VueJS (en cours)<br>
+
+            <h2>Outils</h2>
+            LINUX Ubuntu <br>
+            PhpStorm <br>
+            Git / GitHub <br>
+            Méthode SCRUM <br>
+            Photoshop <br>
+
+            <h2>Langue</h2>
+            Anglais courant (TOEIC : 935) - Ajouter le diplome
+                </div>
+                </div>
         </section>
 
         <section>
-            Expériences
+            <div class=\"container\">
+                <div class=\"row\">
+
+
+                <h1>Expériences Développeur Web Junior</h1> <br>
+
+            Création d’un site internet, AMO-Concept
+            Equipe de 5 personnes
+            Onepage vitrine, système de comptes utilisateurs et d’un back-office
+            Réalisé avec Symfony 3.4 <br>
+            Création d’un site fictif, Bug Cooker
+            Réalisation d’un site vitrine d’un restaurant de nourriture d’insectes
+            HTML/CSS - Boostrap <br>
+
+            <h1>Autres expériences</h1> <br>
+            Assistant d’Exploitation chez SEVEA (2017)
+            Gestion de projet du nouveau concept magasins / Création de retro planning <br>
+
+            Conseiller Clientèle Particulier - Crédit Agricole (2016)
+            Accueil de la clientèle, prise de rendez-vous / Gestion des opérations courantes /
+            Entretiens services et épargne <br>
+
+            Assistant Chef de produit accessoires chez Subsonic (2014)
+            Gestion des gammes de produits et des E-boutiques <br>
+
+            Chargé Marketing et communication dans la start-up Carolei, la maison des pâtes <br>
+            fraîches, Québec (2011)
+            Réalisation du plan marketing et de supports de communication / Gestion des <br>
+            </div>
+            </div>
         </section>
 
         <section>
-            Formulaire de contact
-        </section>  
+            <div class=\"container\">
+                <div class=\"row\">
+
+
+                Formulaire de contact <br>
+            Votre nom / Votre email / Sujet / Message <br>
+            Captcha
+            <input type=\"submit\" value=\"Envoyer\">
+            </div>
+            </div>
+        </section>
 
         <footer>
             Liens utiles : LinkedIn / Github / Twitter
@@ -130,28 +217,115 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
     <body>
         <header>
             <h1>Flavien Girier / Développeur Web Junior</h1>
-            Email / Lyon
+            <div class=\"text-center\">girier.flavien@gmail.com / Lyon</div>
         </header>
 
         <section>
-            About Me
+            <div class=\"container\">
+                <div class=\"row\">
+
+
+                <h1>About Me</h1>
+            <h2>Loisirs</h2>
+            Cinéma : Quentin Tarantino, Christopher Nolan, Alejandro Gonzalez Inarritu
+            Musique : Flûte traversière, guitare basse Sports : Escalade, Soccer 5
+            </div>
+            </div>
         </section>
 
         <section>
-            Formation
+            <div class=\"container\">
+                <div class=\"row\">
+
+
+                Formation
+            Formation Développement Web PHP / Symfony, Wild Code School - 2018 <br>
+            Master Marketing / Communication / Vente, Ecole de management
+            ESDES - 2012-2014 <br>
+            Licence Droit, Economie, Gestion, Université Claude Bernard Lyon 1.
+            Année en Erasmus dans l’université de Lappeenranta, Finlande - 2011-2012 <br>
+            Diplôme Universitaire de Technologie : Gestion des Entreprise et des
+            Administrations (GEA), Université Claude Bernard Lyon 1 - 2009-2011 <br>
+            Baccalauréat Scientifique Option Science de la vie et de la terre 2008 <br>
+            </div>
+            </div>
         </section>
 
         <section>
-            Compétences
+            <div class=\"container\">
+                <div class=\"row\">
+            <h1> Compétences</h1> <br>
+
+            <h2>Back-End</h2>
+            PHP 7<br>
+            Symfony 3<br>
+            MySQL<br>
+
+            <h2>Front-End</h2>
+            HTML5<br>
+            CSS3<br>
+            Boostrap 3 & 4<br>
+            jQuery<br>
+            VueJS (en cours)<br>
+
+            <h2>Outils</h2>
+            LINUX Ubuntu <br>
+            PhpStorm <br>
+            Git / GitHub <br>
+            Méthode SCRUM <br>
+            Photoshop <br>
+
+            <h2>Langue</h2>
+            Anglais courant (TOEIC : 935) - Ajouter le diplome
+                </div>
+                </div>
         </section>
 
         <section>
-            Expériences
+            <div class=\"container\">
+                <div class=\"row\">
+
+
+                <h1>Expériences Développeur Web Junior</h1> <br>
+
+            Création d’un site internet, AMO-Concept
+            Equipe de 5 personnes
+            Onepage vitrine, système de comptes utilisateurs et d’un back-office
+            Réalisé avec Symfony 3.4 <br>
+            Création d’un site fictif, Bug Cooker
+            Réalisation d’un site vitrine d’un restaurant de nourriture d’insectes
+            HTML/CSS - Boostrap <br>
+
+            <h1>Autres expériences</h1> <br>
+            Assistant d’Exploitation chez SEVEA (2017)
+            Gestion de projet du nouveau concept magasins / Création de retro planning <br>
+
+            Conseiller Clientèle Particulier - Crédit Agricole (2016)
+            Accueil de la clientèle, prise de rendez-vous / Gestion des opérations courantes /
+            Entretiens services et épargne <br>
+
+            Assistant Chef de produit accessoires chez Subsonic (2014)
+            Gestion des gammes de produits et des E-boutiques <br>
+
+            Chargé Marketing et communication dans la start-up Carolei, la maison des pâtes <br>
+            fraîches, Québec (2011)
+            Réalisation du plan marketing et de supports de communication / Gestion des <br>
+            </div>
+            </div>
         </section>
 
         <section>
-            Formulaire de contact
-        </section>  
+            <div class=\"container\">
+                <div class=\"row\">
+
+
+                Formulaire de contact <br>
+            Votre nom / Votre email / Sujet / Message <br>
+            Captcha
+            <input type=\"submit\" value=\"Envoyer\">
+            </div>
+            </div>
+        </section>
 
         <footer>
             Liens utiles : LinkedIn / Github / Twitter
