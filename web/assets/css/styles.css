@@ -1,20 +1,203 @@
-header {
-    position: relative;
-    height: 300px;
-    background-image: linear-gradient(#ff9d2f, #ff6126);
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
+body {
+
+    color: #000;
+    background-color: #f1f1f1;
 }
 
-h1 {
-    margin: 0;
-    padding: 100px 0;
-    font: 44px "Arial";
+.cover-text{
+    padding-top: 5%;
+    width: 100%;
     text-align: center;
 }
-
-header h1 {
-    color: white;
+.cover-text h1{
+    text-transform: uppercase;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 14px;
+    vertical-align: middle;
 }
+.cover-text p{
+    font-family: 'Roboto' , sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin-top: 16px;
+    margin-left: -6px;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+/* Button DL CV*/
+.btn-cv {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    margin: 30px;
+}
+
+.btn-outline-cv {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    background: linear-gradient(-45deg, #ee7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 5s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+    animation: Gradient 5s ease infinite;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.btn-outline-cv a {
+    color: #f1f1f1 !important;
+}
+.btn-outline-cv:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-outline-cv a:hover {
+    text-decoration: none;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position:0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+/* Timeline */
+.timeline {
+    width: 100%;
+    max-width: 800px;
+    background: #fff;
+    padding: 100px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);   }
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: calc(33% + 15px);
+    bottom: 0px;
+    width: 4px;
+    background: #ccc;
+}
+
+.timeline:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.timeline-entry {
+    clear: both;
+    text-align: left;
+    position: relative;
+}
+
+.timeline-entry .timeline-title {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+    text-align: right;
+    position: relative;
+}
+
+.timeline-entry .timeline-title:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 5px solid #23252f;
+    background-color: #c79b1b;
+    border-radius: 100%;
+    top: 15%;
+    right: -10px;
+    z-index: 99;
+}
+
+.timeline-entry .timeline-title h3 {
+    margin: 0;
+    font-size: 120%;
+}
+
+.timeline-entry .timeline-title p {
+    margin: 0;
+    font-size: 100%;
+}
+
+.timeline-entry .timeline-body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: 30px;
+}
+
+.timeline-entry .timeline-body p {
+    line-height: 1.4em;
+}
+
+.timeline-entry .timeline-body p:first-child {
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.timeline-entry .timeline-body ul {
+    color: #aaa;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.timeline-entry .timeline-body ul li:before {
+    content: "–";
+    margin-right: 0.5em;
+}
+
+
 
 
