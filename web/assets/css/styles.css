@@ -4,6 +4,113 @@ body {
     background-color: #f1f1f1;
 }
 
+.frame{
+    width: 1200px;
+    height:400px;
+    background: linear-gradient(to top, #cc9966, #ac7339);
+    font-family: 'Tajawal', sans-serif;
+    box-shadow: 1px 2px 10px grey;
+    /* center itself */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+    /* center its children */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 1000px;
+    height: 300px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    display: grid;
+    grid-row-gap: 2px;
+}
+
+.main{
+    background: white;
+    grid-row: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.circle1, .circle2{
+    border: 1px solid grey;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: all 1.5s;
+    position: absolute;
+}
+
+.circle1{
+    height: 108px;
+    width: 108px;
+    border-color: grey transparent grey grey;
+    left: -5px;
+    top: -5px;
+}
+
+.circle2{
+    height: 110px;
+    width:110px;
+    border-color:grey grey grey transparent;
+    top: -3px;
+    left: -3px;
+}
+
+.image:hover .circle1, .image:hover .circle2{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.bio{
+    font-weight: 20px;
+    font-size: 12px;
+    position: relative;
+    top: -28px;
+}
+
+.btn{
+    width: 120px;
+    height: 35px;
+    border: black solid;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.btn p{
+    position: relative;
+    top: -6px;
+    font-weight: bold;
+}
+
+.social{
+    background: #FFFFFF;
+    color: #010101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* mise en page globale*/
 .cover-text{
     padding-top: 5%;
     width: 100%;
@@ -37,7 +144,7 @@ p {
 /* Button DL CV*/
 .btn-cv {
     text-align: center;
-    width: 100%;
+    width: 200px;
     padding-top: 30px;
     margin: 30px;
 }
@@ -60,6 +167,7 @@ p {
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: 500;
+    border-radius: 40px;
 }
 .btn-outline-cv a {
     color: #f1f1f1 !important;

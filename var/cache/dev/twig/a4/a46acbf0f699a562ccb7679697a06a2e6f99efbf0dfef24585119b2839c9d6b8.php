@@ -40,15 +40,33 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
 
 <body>
 
+<div class=\"frame\">
+    <div class=\"box\">
+        <div class=\"main\">
 
-<div class=\"container-fluid  home-cover\">
-    <div class=\"container text-center\">
-        <div class=\"row\">
-            <div class=\"col-sm-12 cover-text\">
-                <h1>Flavien Girier</h1>
-                <p>Développeur Web PHP Junior</p>
+            <div class=\"image\">
+                <div class=\"circle1\"></div>
+                <div class=\"circle2\"></div>
+                <img src=\"";
+        // line 26
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("apple-touch-icon.png"), "html", null, true);
+        echo "\" alt=\"\">
             </div>
+
+            <h1>Girier Flavien</h1>
+            <p>Developpeur PHP Junior</p>
+
+            <!-- CONTACT MODAL\t -->
+            <button type=\"button\" class=\"animated fadeInUpBig btn btn-dark\" data-toggle=\"modal\" data-target=\"#contactModal\">
+                Contact
+            </button>
+
         </div>
+
+        <div class=\"social\">
+            <p>Posts</p>
+        </div>
+
     </div>
 </div>
 
@@ -60,10 +78,16 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
                 <div class=\"col-sm-12 cover-text\">
                     <h1>About Me</h1>
                 </div>
-                <div class=\"cover-text\">
-                    <p>Cinéma : Quentin Tarantino, Christopher Nolan, Alejandro Gonzalez Inarritu</p>
-                    <p>Musique : Flûte traversière, guitare basse</p>
-                    <p>Sports : Escalade, Soccer 5</p>
+                <div>
+                    <p>Diplômé en marketing, j’ai entrepris de poursuivre et de compléter mes compétences
+                        dans le développement web. Fort maintenant d’une maitrise des bases de
+                        l’informatique, je m’épanoui pleinement lorsque je peux créer du contenu et
+                        accompagner la vie d’un projet.</p>
+                    <p>Mes expériences dans le domaine du marketing et de la gestion de produit est un
+                        atout qui me permet de comprendre rapidement les objectifs d’un client et d’optimiser
+                        l’efficacité de mon travail.</p>
+                    <p>J'ai pour objectif de devenir développeur PHP confirmé et éventuellement devenir
+                        lead dev d’ici quelques années. Sur le long terme, le statut de chef de projet ou Product owner pourrait m'intéresser.</p>
                 </div>
             </div>
 
@@ -93,8 +117,10 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
                         <div class=\"timeline-body\">
                             <p>Formation Développement Web PHP / Symfony</p>
                             <ul class=\"text-muted\">
-                                <li>BlablaBlablaBlablaBlablaBlablaBlabla</li>
-                                <li>BlablaBlablaBlablaBlablaBlablaBlabla</li>
+                                <li>Apprentisage du langague PHP</li>
+                                <li>Utilisation du framework Symfony</li>
+                                <li>Réalisation de projet client et fictif</li>
+                                <li>Mise en pratique de méthode Agile SCRUM</li>
                             </ul>
                         </div>
                     </div>
@@ -246,13 +272,27 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
             Liens utiles : LinkedIn / Github / Twitter
         </div>
     </div>
+
+</section>
+<section>
+    <div class=\"container-fluid  home-cover\">
+        <div class=\"container text-center\">
+            <div class=\"row\">
+                <div class=\"col-sm-12 cover-text\">
+                    <h1>About Me</h1>
+                </div>
+                <div class=\"cover-text\">
+                    <p>Cinéma : Quentin Tarantino, Christopher Nolan, Alejandro Gonzalez Inarritu</p>
+                    <p>Musique : Flûte traversière, guitare basse</p>
+                    <p>Sports : Escalade, Soccer 5</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
-<!-- CONTACT MODAL\t -->
-<!-- Button trigger modal -->
-<button type=\"button\" class=\"animated fadeInUpBig btn btn-dark\" data-toggle=\"modal\" data-target=\"#contactModal\">
-    Contact
-</button>
+
 <!-- Modal Contact -->
 <div class=\"modal fade\" id=\"contactModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"contactModalLabel\"
      aria-hidden=\"true\">
@@ -281,7 +321,7 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
 <!-- Button Download resume -->
 <div class=\"row\">
     <div class=\"btn-cv\">
-        <button type=\"button\" class=\"btn btn-outline-cv\"><a href=\"#\">Télécharger mon CV</a></button>
+        <button type=\"button\" class=\"btn-outline-cv\"><a href=\"#\">Télécharger mon CV</a></button>
     </div>
 </div>
 
@@ -313,9 +353,14 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
         return "base.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  25 => 1,);
+        return array (  52 => 26,  25 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -346,15 +391,30 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
 
 <body>
 
+<div class=\"frame\">
+    <div class=\"box\">
+        <div class=\"main\">
 
-<div class=\"container-fluid  home-cover\">
-    <div class=\"container text-center\">
-        <div class=\"row\">
-            <div class=\"col-sm-12 cover-text\">
-                <h1>Flavien Girier</h1>
-                <p>Développeur Web PHP Junior</p>
+            <div class=\"image\">
+                <div class=\"circle1\"></div>
+                <div class=\"circle2\"></div>
+                <img src=\"{{ asset('apple-touch-icon.png') }}\" alt=\"\">
             </div>
+
+            <h1>Girier Flavien</h1>
+            <p>Developpeur PHP Junior</p>
+
+            <!-- CONTACT MODAL\t -->
+            <button type=\"button\" class=\"animated fadeInUpBig btn btn-dark\" data-toggle=\"modal\" data-target=\"#contactModal\">
+                Contact
+            </button>
+
         </div>
+
+        <div class=\"social\">
+            <p>Posts</p>
+        </div>
+
     </div>
 </div>
 
@@ -366,10 +426,16 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
                 <div class=\"col-sm-12 cover-text\">
                     <h1>About Me</h1>
                 </div>
-                <div class=\"cover-text\">
-                    <p>Cinéma : Quentin Tarantino, Christopher Nolan, Alejandro Gonzalez Inarritu</p>
-                    <p>Musique : Flûte traversière, guitare basse</p>
-                    <p>Sports : Escalade, Soccer 5</p>
+                <div>
+                    <p>Diplômé en marketing, j’ai entrepris de poursuivre et de compléter mes compétences
+                        dans le développement web. Fort maintenant d’une maitrise des bases de
+                        l’informatique, je m’épanoui pleinement lorsque je peux créer du contenu et
+                        accompagner la vie d’un projet.</p>
+                    <p>Mes expériences dans le domaine du marketing et de la gestion de produit est un
+                        atout qui me permet de comprendre rapidement les objectifs d’un client et d’optimiser
+                        l’efficacité de mon travail.</p>
+                    <p>J'ai pour objectif de devenir développeur PHP confirmé et éventuellement devenir
+                        lead dev d’ici quelques années. Sur le long terme, le statut de chef de projet ou Product owner pourrait m'intéresser.</p>
                 </div>
             </div>
 
@@ -399,8 +465,10 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
                         <div class=\"timeline-body\">
                             <p>Formation Développement Web PHP / Symfony</p>
                             <ul class=\"text-muted\">
-                                <li>BlablaBlablaBlablaBlablaBlablaBlabla</li>
-                                <li>BlablaBlablaBlablaBlablaBlablaBlabla</li>
+                                <li>Apprentisage du langague PHP</li>
+                                <li>Utilisation du framework Symfony</li>
+                                <li>Réalisation de projet client et fictif</li>
+                                <li>Mise en pratique de méthode Agile SCRUM</li>
                             </ul>
                         </div>
                     </div>
@@ -552,13 +620,27 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
             Liens utiles : LinkedIn / Github / Twitter
         </div>
     </div>
+
+</section>
+<section>
+    <div class=\"container-fluid  home-cover\">
+        <div class=\"container text-center\">
+            <div class=\"row\">
+                <div class=\"col-sm-12 cover-text\">
+                    <h1>About Me</h1>
+                </div>
+                <div class=\"cover-text\">
+                    <p>Cinéma : Quentin Tarantino, Christopher Nolan, Alejandro Gonzalez Inarritu</p>
+                    <p>Musique : Flûte traversière, guitare basse</p>
+                    <p>Sports : Escalade, Soccer 5</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
-<!-- CONTACT MODAL\t -->
-<!-- Button trigger modal -->
-<button type=\"button\" class=\"animated fadeInUpBig btn btn-dark\" data-toggle=\"modal\" data-target=\"#contactModal\">
-    Contact
-</button>
+
 <!-- Modal Contact -->
 <div class=\"modal fade\" id=\"contactModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"contactModalLabel\"
      aria-hidden=\"true\">
@@ -587,7 +669,7 @@ class __TwigTemplate_20e0610c2f449405d6c2ac07357585c42706deb85ca7c032cb320a4d2f1
 <!-- Button Download resume -->
 <div class=\"row\">
     <div class=\"btn-cv\">
-        <button type=\"button\" class=\"btn btn-outline-cv\"><a href=\"#\">Télécharger mon CV</a></button>
+        <button type=\"button\" class=\"btn-outline-cv\"><a href=\"#\">Télécharger mon CV</a></button>
     </div>
 </div>
 
